@@ -4,12 +4,20 @@ class WsCli < Formula
   version "0.1.0"
   license "MIT"
 
-  if OS.mac?
-    url "https://github.com/mmpsoftware/ws-cli/releases/download/v#{version}/ws-cli_Darwin_x86_64.tar.gz"
-    sha256 "abcdef123456..."
-  elsif OS.linux?
-    url "https://github.com/mmpsoftware/ws-cli/releases/download/v#{version}/ws-cli_Linux_x86_64.tar.gz"
-    sha256 "123456abcdef..."
+  on_macos do
+    if Hardware::CPU.arm?
+      url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v#{version}/ws-cli_Darwin_arm64.tar.gz"
+    else
+      url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v#{version}/ws-cli_Darwin_x86_64.tar.gz"
+    end
+  end
+
+  on_linux do
+    if Hardware::CPU.arm?
+      url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v#{version}/ws-cli_Linux_arm64.tar.gz"
+    else
+      url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v#{version}/ws-cli_Linux_x86_64.tar.gz"
+    end
   end
 
   def install
