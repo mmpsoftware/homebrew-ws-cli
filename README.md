@@ -69,12 +69,16 @@ For more detailed usage instructions, please refer to our [documentation](#docum
 
 For comprehensive documentation, including advanced usage, configuration options, and best practices, please visit our [official documentation](https://docs.webhooksimulator.com).
 
+## Changelog
+
+Check out our [changelog](https://changelog.webhooksimulator.com) to see what's new in the latest version of Webhook Simulator and its CLI.
+
 ## Support
 
-If you encounter any issues or have any questions, please don't hesitate to reach out:
+We're here to help! If you have questions or run into any issues:
 
-- Website: https://webhooksimulator.com
-- Email: hey@webhooksimulator.com
+- Visit our support center: https://support.webhooksimulator.com
+- Email us: hey@webhooksimulator.com
 
 ## License
 
