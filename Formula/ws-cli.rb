@@ -10,16 +10,16 @@ class WsCli < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/mmpsoftware/ws-cli/releases/download/v1.0.0/ws-cli_1.0.0_darwin_amd64.tar.gz"
-      sha256 "4f1bcf8d8aa6f4a4aebb7d78959a179b49c9d38fa627adab52f66648bbf78e45"
+      url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.0/homebrew-ws-cli_Darwin_x86_64.tar.gz"
+      sha256 "790cfc774113cccbc1f9cfcd9d76ad2ec1e1473248351866de6d8ea5c56dae24"
 
       def install
         bin.install "ws-cli"
       end
     end
     on_arm do
-      url "https://github.com/mmpsoftware/ws-cli/releases/download/v1.0.0/ws-cli_1.0.0_darwin_arm64.tar.gz"
-      sha256 "1e0af7e651b0f403c379c45079df981303a435bfe43c9edc91f87b2626719b50"
+      url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.0/homebrew-ws-cli_Darwin_arm64.tar.gz"
+      sha256 "0a6766f71ecaf1abbb8da5dc0d0b91810a024673aae381a45a914c7c9e3e4219"
 
       def install
         bin.install "ws-cli"
@@ -30,8 +30,8 @@ class WsCli < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/mmpsoftware/ws-cli/releases/download/v1.0.0/ws-cli_1.0.0_linux_amd64.tar.gz"
-        sha256 "e2faa099423d2ca89f5e641c07a69d6218690badd714dd164ab2442088c16481"
+        url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.0/homebrew-ws-cli_Linux_x86_64.tar.gz"
+        sha256 "db1d07d09b509d6e17b2031156c255d035752b2771ddf8391eac69d1464aa0f1"
 
         def install
           bin.install "ws-cli"
@@ -40,8 +40,8 @@ class WsCli < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/mmpsoftware/ws-cli/releases/download/v1.0.0/ws-cli_1.0.0_linux_arm64.tar.gz"
-        sha256 "181d8a024c7569967e9af71ab182d03e98c0a7fad4529a9c4309dc9f15251a7f"
+        url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.0/homebrew-ws-cli_Linux_arm64.tar.gz"
+        sha256 "1d131c5f190033f4c1a4832c9b9e177abda2b9ad8bddf65c3895044a0587da18"
 
         def install
           bin.install "ws-cli"
