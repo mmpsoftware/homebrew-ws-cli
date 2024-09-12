@@ -11,7 +11,7 @@ class WsCli < Formula
   on_macos do
     on_intel do
       url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.0/homebrew-ws-cli_Darwin_x86_64.tar.gz"
-      sha256 "e42d92621ffaf5d42bd654202a43a79f61d6b69c79898e0c02a25560b28cedbc"
+      sha256 "e3dcc58b9dc1475a4d654dbfc0c6286b042ab711a4cd6a4b7489e8cfb2ae9367"
 
       def install
         bin.install "ws-cli"
@@ -19,7 +19,7 @@ class WsCli < Formula
     end
     on_arm do
       url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.0/homebrew-ws-cli_Darwin_arm64.tar.gz"
-      sha256 "c7a24760c505e8986b53732cb773bf79cb82516b2cb994098b9209ded8b2e573"
+      sha256 "040abffd0b85e32ba1cf930896be198ca90a826a784c82e9a5aced47a6eb9db6"
 
       def install
         bin.install "ws-cli"
@@ -31,7 +31,7 @@ class WsCli < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.0/homebrew-ws-cli_Linux_x86_64.tar.gz"
-        sha256 "c76d0a7b3859b0cf90eb416faf4acdb4f2e83b1b14b0b79abd84a6b9e5254ec7"
+        sha256 "b1f07988d7d47b286dbf2dbee9901d94dcf3b1d4ca941c0870a543d2e4dbe80b"
 
         def install
           bin.install "ws-cli"
@@ -41,7 +41,7 @@ class WsCli < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.0/homebrew-ws-cli_Linux_arm64.tar.gz"
-        sha256 "1813d7077c8e71736c40304774a36b65bf93205825852be49729d9586660d9e2"
+        sha256 "89949bc4767c59bf58a59d31c6ab2acc1332088d90e483d5b6627b4b76b20098"
 
         def install
           bin.install "ws-cli"
