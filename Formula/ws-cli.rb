@@ -5,21 +5,21 @@
 class WsCli < Formula
   desc "Webhook Simulator CLI Tool"
   homepage "https://github.com/mmpsoftware/homebrew-ws-cli"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.3/homebrew-ws-cli_Darwin_x86_64.tar.gz"
-      sha256 "d62bca52026d69f272967f73ea5d13a271a9b56dd46bb4c3de7efa08d665f11a"
+      url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.4/homebrew-ws-cli_Darwin_x86_64.tar.gz"
+      sha256 "64c7019983145f269b9a06668d21d0bb35b9705e99df9195c89e721e6df9cde8"
 
       def install
         bin.install "ws-cli"
       end
     end
     on_arm do
-      url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.3/homebrew-ws-cli_Darwin_arm64.tar.gz"
-      sha256 "081b0e49650e4f07aa813666c5c258273768412162ca0a20ecbe3595f1d9b2b3"
+      url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.4/homebrew-ws-cli_Darwin_arm64.tar.gz"
+      sha256 "a857ebbed4cea060667382e83e8d01791118b6030832f946d4a21f55e3c1bfd9"
 
       def install
         bin.install "ws-cli"
@@ -30,8 +30,8 @@ class WsCli < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.3/homebrew-ws-cli_Linux_x86_64.tar.gz"
-        sha256 "f1ec8ad2266c90ab78511e5eefa8262df932f8f04caf752fdb27ba1aa9aebdac"
+        url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.4/homebrew-ws-cli_Linux_x86_64.tar.gz"
+        sha256 "49c529679431f150b382761fbaa1d0863b28af0b9f5c26e4055c2848ddf2dadc"
 
         def install
           bin.install "ws-cli"
@@ -40,8 +40,8 @@ class WsCli < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.3/homebrew-ws-cli_Linux_arm64.tar.gz"
-        sha256 "5538aa8baf97625b5e485ce3fa4b9254023569012171f569689fbbb8ea94921c"
+        url "https://github.com/mmpsoftware/homebrew-ws-cli/releases/download/v1.0.4/homebrew-ws-cli_Linux_arm64.tar.gz"
+        sha256 "ed4368b005ecf1fd5eddc2775869738bdcfa318eff24503f090c5e69b115f928"
 
         def install
           bin.install "ws-cli"
