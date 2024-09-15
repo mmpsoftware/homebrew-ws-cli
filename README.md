@@ -63,7 +63,7 @@ Here are some basic commands to get you started:
    ws-cli listen --forward-to http://localhost:3000/webhook
    ```
 
-For more detailed usage instructions, please refer to our [documentation](#documentation).
+For more detailed usage instructions, please refer to our [official documentation](https://docs.webhooksimulator.com).
 
 ## Documentation
 
@@ -77,7 +77,6 @@ Check out our [changelog](https://changelog.webhooksimulator.com) to see what's 
 
 We're here to help! If you have questions or run into any issues:
 
-- Visit our support center: https://support.webhooksimulator.com
 - Email us: hey@webhooksimulator.com
 
 ## License
